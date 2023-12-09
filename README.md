@@ -4,11 +4,13 @@
 
 ## 使用方法
 ### docker方式安装
-1、解压后将template里面的文件放到服务端/opt/nezha/dashboard/theme-custom/template目录里面
+1、将template里面的```文件```放到服务端```/opt/nezha/dashboard/theme-custom/template```目录里面
 
 2、重启哪吒面板服务
+```
     1）docker ps
     2）docker restart 上一步中哪吒的id
+```
 
 3、登录哪吒面板后台，设置===>主题==>选择Custom(local)
 
@@ -17,10 +19,12 @@
 5、保存
 
 ### 独立方式安装
-1、解压后将template里面的文件放到服务端/opt/nezha/dashboard/resource/template/theme-custom目录里面
+1、将template里面的```文件```放到服务端```/opt/nezha/dashboard/resource/template/theme-custom```目录里面
 
 2、重启哪吒面板服务
+```
     systemctl restart nezha-dashboard
+```
 
 3、登录哪吒面板后台，设置===>主题==>选择Custom(local)
 
