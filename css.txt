@@ -1,0 +1,342 @@
+<style>
+/* 屏幕适配 */
+@media only screen and (min-width: 1200px) {
+	.ui.container {
+        width: 80% !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+	.ui.card>.content>.header:not(.ui), .ui.cards>.card>.content>.header:not(.ui) {
+		margin-top: 0.4em !important;
+	}
+}
+ 
+/* 整体图标 */
+i.icon {
+	color: #000;
+	width: 1.2em !important;
+}
+ 
+/* 背景图片 */
+body {
+	content: " " !important;
+	background: fixed !important;
+	z-index: -1 !important;
+	top: 0 !important;
+	right: 0 !important;
+	bottom: 0 !important;
+	left: 0 !important;
+	background-position: top !important;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	background-image: url(https://gitee.com/darki/img/raw/master/1631081013043.webp) !important;
+	font-family: Arial,Helvetica,sans-serif !important;
+}
+ 
+/* 导航栏 */
+.ui.large.menu {
+	border: 0 !important;
+	border-radius: 0px !important;
+	background-color: rgba(255, 255, 255, 55%) !important;
+}
+ 
+/* 首页按钮 */
+.ui.menu .active.item {
+	background-color: transparent !important;
+}
+ 
+/* 导航栏下拉框 */
+.ui.dropdown .menu {
+	border: 0 !important;
+	border-radius: 0 !important;
+	background-color: rgba(255, 255, 255, 80%) !important;
+}
+ 
+/* 登陆按钮 */
+.nezha-primary-btn {
+	background-color: transparent !important;
+	color: #000 !important;
+}
+ 
+/* 大卡片 */
+#app .ui.fluid.accordion {
+	background-color: #fbfbfb26 !important;
+	border-radius: 0.4rem !important;
+}
+ 
+/* 小卡片 */
+.ui.four.cards>.card {
+	border-radius: 0.6rem !important;
+	background-color: #fafafaa3 !important;
+}
+
+/* 卡片内间距，如需调整小卡片高度，可以修改下面的3.3rem的数字 */
+.status.cards .wide.column {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+	height: 3.3rem !important;
+}
+
+.status.cards .three.wide.column {
+	padding-right: 0rem !important;
+}
+
+.status.cards .wide.column:nth-child(1) {
+	margin-top: 2rem !important;
+}
+
+.status.cards .wide.column:nth-child(2) {
+	margin-top: 2rem !important;
+}
+
+.status.cards .description {
+	padding-bottom: 0 !important;
+}
+ 
+/* 小鸡名 */
+.status.cards .flag {
+	margin-right: 0.5rem !important;
+}
+ 
+/* 弹出卡片图标 */
+.status.cards .header > .info.icon {
+	margin-right: 0 !important;
+}
+
+.nezha-secondary-font {
+	color: #21ba45 !important;
+}
+ 
+/* 进度条圆角和颜色 */
+.ui.progress {
+	border-radius: 50rem !important;
+}
+
+/* 状态进度条 */
+.ui.progress .bar {
+	min-width: 1.8em !important;
+	border-radius: 15px !important;
+	line-height: 1.65em !important;
+}
+
+/* 正常状态进度条颜色 */
+.ui.progress.fine .bar {
+	background-color: #21ba45 !important;
+}
+
+/* 有点累状态进度条颜色 */
+.ui.progress.warning .bar {
+	background-color: #ff9800 !important;
+}
+
+/* 高负载状态进度条颜色 */
+.ui.progress.error .bar {
+	background-color: #e41e10 !important;
+}
+
+/* 离线状态进度条颜色 */
+.ui.progress.offline .bar {
+	background-color: #000 !important;
+}
+ 
+/* 上传下载 */
+.status.cards .outline.icon {
+	margin-right: 1px !important;
+}
+
+i.arrow.alternate.circle.down.outline.icon {
+	color: #21ba45 !important;
+}
+
+i.arrow.alternate.circle.up.outline.icon {
+	color: red !important;
+}
+ 
+/* 弹出卡片小箭头 */
+.ui.right.center.popup {
+	margin: -3px 0 0 0.914286em !important;
+	-webkit-transform-origin: left 50% !important;
+	transform-origin: left 50% !important;
+}
+
+.ui.bottom.left.popup {
+	margin-left: 1px !important;
+	margin-top: 3px !important;
+}
+
+.ui.top.left.popup {
+	margin-left: 0 !important;
+	margin-bottom: 10px !important;
+}
+
+.ui.top.right.popup {
+	margin-right: 0 !important;
+	margin-bottom: 8px !important;
+}
+
+.ui.left.center.popup {
+	margin: -3px .91428571em 0 0 !important;
+	-webkit-transform-origin: right 50% !important;
+	transform-origin: right 50% !important;
+}
+
+.ui.right.center.popup:before,
+.ui.left.center.popup:before {
+	border: 0px solid #fafafaeb !important;
+	background: #fafafaeb !important;
+}
+
+.ui.top.popup:before {
+	border-color: #fafafaeb transparent transparent !important;
+}
+
+.ui.popup:before {
+	border-color: #fafafaeb transparent transparent !important;
+}
+
+.ui.bottom.left.popup:before {
+	border-radius: 0 !important;
+	border: 1px solid transparent !important;
+	border-color: #fafafaeb transparent transparent !important;
+	background: #fafafaeb !important;
+	-webkit-box-shadow: 0px 0px 0 0 
+#fafafaeb !important;
+	box-shadow: 0px 0px 0 0 #fafafaeb !important;
+	-webkit-tap-highlight-color: rgba(0,0,0,0) !important;
+}
+
+.ui.bottom.right.popup:before {
+	border-radius: 0 !important;
+	border: 1px solid transparent !important;
+	border-color: #fafafaeb transparent transparent !important;
+	background: #fafafaeb !important
+-webkit-box-shadow: 0px 0px 0 0 #fafafaeb !important;
+	box-shadow: 0px 0px 0 0 #fafafaeb !important;
+	-webkit-tap-highlight-color: rgba(0,0,0,0) !important;
+}
+
+.ui.top.left.popup:before {
+	border-radius: 0 !important;
+	border: 1px solid transparent !important;
+	border-color: #fafafaeb transparent transparent !important;
+	background: #fafafaeb !important;
+	-webkit-box-shadow: 0px 0px 0 0 #fafafaeb !important;
+	box-shadow: 0px 0px 0 0 #fafafaeb !important;
+	-webkit-tap-highlight-color: rgba(0,0,0,0) !important;
+}
+
+.ui.top.right.popup:before {
+	border-radius: 0 !important;
+	border: 1px solid transparent !important;
+	border-color: #fafafaeb transparent transparent !important;
+	background: #fafafaeb !important;
+	-webkit-box-shadow: 0px 0px 0 0 #fafafaeb !important;
+	box-shadow: 0px 0px 0 0 #fafafaeb !important;
+	-webkit-tap-highlight-color: rgba(0,0,0,0) !important;
+}
+
+.ui.left.center.popup:before {
+	border-radius: 0 !important;
+	border: 1px solid transparent !important;
+	border-color: #fafafaeb transparent transparent !important;
+	background: #fafafaeb !important;
+	-webkit-box-shadow: 0px 0px 0 0 #fafafaeb !important;
+	box-shadow: 0px 0px 0 0 #fafafaeb !important;
+	-webkit-tap-highlight-color: rgba(0,0,0,0) !important;
+}
+ 
+/* 弹出卡片 */
+.status.cards .ui.content.popup {
+	min-width: 20rem !important;
+	line-height: 2rem !important;
+	border-radius: 5px !important;
+	border: 1px solid transparent !important;
+	background-color: #fafafaeb !important;
+	font-family: Arial,Helvetica,sans-serif !important;
+}
+
+.ui.content {
+	margin: 0 !important;
+	padding: 1em !important;
+}
+ 
+/* 服务页 */
+.ui.table {
+	background: RGB(225,225,225,0.6) !important;
+}
+
+.ui.table thead th {
+	background: transparent !important;
+}
+ 
+/* 服务页进度条 */
+.service-status .good {
+	background-color: #21ba45 !important;
+}
+
+.service-status .danger {
+	background-color: red !important;
+}
+
+.service-status .warning {
+	background-color: orange !important;
+}
+
+/* 提示消息 */
+.floating.message.success {
+	backdrop-filter: blur(15px) brightness(110%);
+	background-color: rgba(255, 255, 255, 0.556);
+	border: 3px solid rgba(225.225.255.0.5);
+	border-radius: 1rem !important;
+	color: black;
+	box-shadow: 0 0 15px rgba(33, 186, 69, 0.66);
+}
+
+.floating.message.success .header {
+	color: black;
+}
+
+.floating.message.warning {
+	backdrop-filter: blur(15px) brightness(110%);
+	background-color: rgba(255, 255, 255, 0.55);
+	border: 1px solid rgba(225.225.255.0.5);
+	border-radius: 1rem !important;
+	color: black;
+	box-shadow: 0 0 15px rgba(33, 186, 69, 0.66);
+}
+
+.floating.message.warning .header {
+	color: black;
+}
+ 
+/* 版权 */
+.ui.inverted.segment, 
+.ui.primary.inverted.segment {
+	color: #000 !important;
+	font-weight: bold !important;
+	background-color: #fafafaa3 !important;
+}
+</style>
+ 
+<!--Logo和版权-->
+<script>
+window.onload = function() {
+var avatar=document.querySelector(".item img")
+var footer=document.querySelector("div.is-size-7")
+footer.innerHTML="Copyright © 2023 All Rights Reserved."
+footer.style.visibility="visible"
+avatar.src="https://img14.360buyimg.com/ddimg/jfs/t1/162473/22/23012/3692/6184b06aEa95a0194/8c51cebbd04b95b2.png"
+avatar.style.visibility="visible"
+}
+</script>
+
+<!--替换默认Favicon-->
+<script>
+var faviconurl="//img14.360buyimg.com/ddimg/jfs/t1/162473/22/23012/3692/6184b06aEa95a0194/8c51cebbd04b95b2.png";
+var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
+link.type = 'image/png';
+link.rel = 'shortcut icon';
+link.href = faviconurl;
+document.getElementsByTagName('head')[0].appendChild(link);
+</script>
