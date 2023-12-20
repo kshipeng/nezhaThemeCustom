@@ -71,11 +71,11 @@ body {
 	background-color: #fafafaa3 !important;
 }
 
-/* 卡片内间距，如需调整小卡片高度，可以修改下面的3.3rem的数字 */
+/* 卡片内间距，如需调整小卡片高度，可以修改下面的2.6rem的数字 */
 .status.cards .wide.column {
 	padding-top: 0 !important;
 	padding-bottom: 0 !important;
-	height: 3.3rem !important;
+	height: 2.6rem !important;
 }
 
 .status.cards .three.wide.column {
