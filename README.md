@@ -3,7 +3,7 @@
 [演示地址](https://tz.euser.cf)
 
 ## 使用方法
-### docker方式安装
+### 如果安装面板时选用docker方式安装,步骤如下
 1、将template里面的```文件```放到服务端```/opt/nezha/dashboard/theme-custom/template```目录里面
 
 2、重启哪吒面板服务
@@ -18,7 +18,7 @@
 
 5、保存
 
-### 独立方式安装
+### 如果安装面板时选用独立方式安装,步骤如下
 1、将template里面的```文件```放到服务端```/opt/nezha/dashboard/resource/template/theme-custom```目录里面
 
 2、重启哪吒面板服务
