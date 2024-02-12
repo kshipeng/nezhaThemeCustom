@@ -1,6 +1,6 @@
 # 哪吒自定义主题
 
-[演示地址](https://tz.euser.cf)
+[演示地址](https://tz.isgo.win)
 
 ## 使用方法
 ### 如果安装面板时选用docker方式安装,步骤如下
