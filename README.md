@@ -2,7 +2,8 @@
 
 [演示地址](https://tz.isgo.win)
 
-## 使用方法
+## 使用方法（哪吒版本>=0.16.0）
+##### 如果哪吒版本<0.16.0，不需要`network.html`文件，并删除`menu.html`文件中第18行，即：`<a class='item{{if eq .MatchedPath "/network"}} active{{end}}' href="/network"><i class="server icon"></i>{{tr "NetworkSpiter"}}</a>`
 ### 如果安装面板时选用docker方式安装,步骤如下
 1、将```template```里面的```文件```放到服务端```/opt/nezha/dashboard/theme-custom/template```目录里面
 
@@ -32,7 +33,14 @@
 
 5、保存
 
+### （可选）修改ping值上限为2000（或任意你希望的取值）
+```
+vim /opt/nezha/dashboard/data/config.yaml
+```
+找到`MaxTCPPingValue:` 修改后面的值为`2000`
+
 ## 新增及修改内容
+0、三网延迟界面图表美化
 
 1、内存、硬盘少于1GB时以MB显示, 多于1GB时精确到小数点后2位
 
