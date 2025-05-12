@@ -4,7 +4,7 @@
 
 如果不显示国旗应该是你的面板版本太低了（面板版本与agent版本不匹配）
 
-## 使用方法（哪吒版本>=0.16.0）
+## 使用方法（哪吒版本>=0.16.0&&<V1）
 ##### 如果哪吒版本<0.16.0，不需要`network.html`文件，并删除`menu.html`文件中第18行，即：`<a class='item{{if eq .MatchedPath "/network"}} active{{end}}' href="/network"><i class="server icon"></i>{{tr "NetworkSpiter"}}</a>`
 ### 如果安装面板时选用docker方式安装,步骤如下
 1、将```template```里面的```文件```放到服务端```/opt/nezha/dashboard/theme-custom/template```目录里面
